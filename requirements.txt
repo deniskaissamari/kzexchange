@@ -1,0 +1,5 @@
+aiogram
+asyncio
+requests
+beautifulsoup4
+fake-useragent
