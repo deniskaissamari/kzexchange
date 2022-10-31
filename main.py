@@ -63,7 +63,7 @@ async def urls(message: types.Message):
 @dp.message_handler(Text(equals="Курс \U0001F4C8"))
 async def getparserate(message: types.Message):
     # вы
-    await message.answer(str(rates_name) + '\n' + '1\U0001F1F7\U0001F1FA = ' + str(round(raterubkz, 4)) + "\U0001F1F0\U0001F1FF")
+    await message.answer(str(rates_name) + '\n' + 'Ꝑ = ' + str(round(raterubkz, 4)) + "₸")
 
 
 # хендлер для ответа на нажатие кнопки 'Перевести'
