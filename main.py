@@ -36,7 +36,7 @@ inline_keybord = InlineKeyboardMarkup().add(inline_rubkz_button, inline_kzrub_bu
 # создаём инлайн клавиатуру с url пересылками на сайт с курсом валют и киви
 url_button1 = InlineKeyboardButton(text='Курсы валют', url='https://mironline.ru/support/list/kursy_mir/')
 url_button2 = InlineKeyboardButton(text='Спонсировать', url='qiwi.com/n/ABOBUS227')
-urlkb = InlineKeyboardMarkup(row_width=1).add(url_button1, url_button2)
+urlkb = InlineKeyboardMarkup(row_width=1).add(url_button1)
 
 
 # создаём класс с двумя переменными для машины состояний
